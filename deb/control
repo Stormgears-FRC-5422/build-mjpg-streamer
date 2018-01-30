@@ -1,0 +1,15 @@
+Source: mjpg-streamer
+Section: Video
+Priority: optional
+Maintainer: W. Mark Smith <wmsmith@gmail.com>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/Stormgears-FRC-5422/build-mjpg-streamer
+#Vcs-Git: git://anonscm.debian.org/collab-maint/mjpg-streamer.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/mjpg-streamer.git;a=summary
+
+Package: mjpg-streamer
+Architecture: any
+Depends: ${misc:Depends}
+Description: scripts to download and build packages for MJPEG Streamer
+ scripts to download and build packages for MJPEG Streamer
